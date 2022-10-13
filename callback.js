@@ -13,7 +13,6 @@ function getApiList() {
 
 // the callback function will be called after the new API is pushed
 // takes as param a function as callback
-// not waiting 2 seconds 
 function addNewApi(api, callback) {
     setTimeout(() => {
         apiList.push(api);

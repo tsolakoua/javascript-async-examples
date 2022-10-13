@@ -25,6 +25,11 @@ function addNewApi(api) {
     });
 
 }
+// await waits for an async process to complete before moving on
+// to use await we need to define the function that calls it as async
+async function init() {
+    await addNewApi({ id: '4', name: 'Flight Create Orders' });
+    getApiList();
+}
 
-// when Promise resolved we call the getApiList()
-addNewApi({ id: '4', name: 'Flight Create Orders' }).then(getApiList);
+init();
