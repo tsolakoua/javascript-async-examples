@@ -1,3 +1,5 @@
+## JavaScript async examples 
+
 In this repository we load an HTML page with a list of travel APIs in order to get familiar with the asynchronous behavior of JavaScript. 
 
 In the `simple.js` you will notice that the new added API is not loaded in the HTML. How can we make it work?
